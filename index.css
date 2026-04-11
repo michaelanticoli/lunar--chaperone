@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Custom styling for dotted inputs to look like printed workbook lines */
+  .journal-line {
+    @apply w-full bg-transparent border-b-[1.5px] border-dotted border-ink-muted/60 text-ink font-serif text-lg py-1 px-0 focus:outline-none focus:border-ink transition-colors;
+  }
+}
