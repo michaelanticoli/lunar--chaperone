@@ -1,7 +1,7 @@
 import React from 'react';
-import { Label, Title, Subtitle, Heading, Body, List } from '../components/ui/Typography';
-import { Section, Divider, JournalInput, JournalArea } from '../components/ui/Layout';
-import { MoonPhase, RadiatingCircles, TriangleSymbol } from '../components/graphics/Symbols';
+import { Label, Title, Subtitle, Heading, Body, List } from './Typography.jsx';
+import { Section, Divider, JournalInput, JournalArea } from './Layout.jsx';
+import { MoonPhase, RadiatingCircles, TriangleSymbol } from './Symbols.jsx';
 
 export default function Workbook() {
   return (
