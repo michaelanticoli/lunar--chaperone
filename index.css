@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-paper text-ink antialiased;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Custom styling for dotted inputs to look like printed workbook lines */
+  .journal-line {
+    @apply w-full bg-transparent border-b-[1.5px] border-dotted border-ink-muted/60 text-ink font-serif text-lg py-1 px-0 focus:outline-none focus:border-ink transition-colors;
+  }
+}

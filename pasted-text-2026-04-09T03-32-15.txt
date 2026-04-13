@@ -1,0 +1,228 @@
+I. INTERIOR FORMAT SPECIFICATIONS
+(InDesign Blueprint — Print + Interactive PDF Compatible)
+Trim Size Recommendation
+Option A (Most Premium Feel):
+6 x 9 inches
+Elegant, bookish, intimate.
+Option B (Workbook Feel, Slightly More Modern):
+7 x 10 inches
+For $20 print, I recommend 6 x 9.
+It feels curated, not mass-market.
+
+Bleed
+0.125 in (3mm) on all sides.
+Interior will use minimal full bleed — mostly white space.
+
+Margins (6 x 9 Format)
+Top: 0.9 in
+Bottom: 1 in
+Inside: 0.9 in
+Outside: 1 in
+Why:
+Slightly wider outer margin creates breathing room.
+Slightly heavier bottom margin anchors the page visually.
+
+Baseline Grid
+Body text: 11.5 pt
+Leading: 17 pt
+Set baseline grid to 17 pt.
+Align all body copy to baseline grid.
+Pull quotes may float off grid intentionally.
+
+Column Structure
+Single column layout for 90% of book.
+Column width: approx. 3.75–4 inches.
+Do not go full width — that destroys luxury pacing.
+
+Master Page System
+You will create 5 Master Pages:
+
+A — Section Opener
+• Title centered vertically in upper third
+• Small caps serif
+• 2pt thin divider line beneath
+• Minimal illustration bottom third
+• No running header
+
+B — Ritual Page
+• Narrow centered text block
+• Pull quote styled separately
+• Illustration bottom corner
+• Half page blank journaling space
+
+C — Integration Page
+• Large centered keyword top
+• Three concise practices
+• 1/3 page blank
+• Bottom micro footer
+
+D — Full Illustration Spread
+• Left page illustration dominant
+• Right page poetic script narrow column
+
+E — Journal Page
+• Subtle header
+• 70% blank space
+• Optional faint dotted writing guides (10% opacity)
+
+Running Footer
+Centered, very small:
+MOONtuner — Pisces → Libra
+© 2026
+8pt sans serif.
+Never intrusive.
+
+II. TYPOGRAPHY SYSTEM
+Keep it disciplined.
+Serif (Headings)
+High contrast modern serif.
+Examples to consider:
+• Canela
+• Cormorant Garamond (premium styling)
+• Editorial New
+• Noe Display
+Tracking: +40 to +60 for small caps.
+
+Sans (Body)
+Clean, neutral.
+• Suisse Intl
+• Avenir
+• Neue Haas Grotesk
+• Inter (budget-friendly)
+Tracking: +10 to +20.
+
+Hierarchy Scale
+Section Title: 34–40 pt
+Subsection: 18 pt
+Pull Quote: 22–26 pt
+Body: 11.5 pt
+Footer: 8 pt
+Never use bold for emphasis.
+Use space instead.
+
+III. ILLUSTRATION MOTIF COMMISSIONING SHEET
+This is what you send to your illustrator.
+
+Overall Illustration Direction
+Style:
+• Minimalist line drawing
+• Art Deco geometry influence
+• Surreal but restrained
+• No shading
+• No gradients
+• Single stroke weight consistency
+• Designed to foil stamp or emboss
+Line Weight:
+0.75 pt for details
+1.25 pt for structural outlines
+Color:
+Flat gold (Pantone 871 if metallic)
+OR deep pine green if not metallic.
+
+Motif Library (Required Pieces)
+1. Pisces Motifs (Asymmetrical Energy)
+• Bare feet dissolving into tide lines
+• Crescent moon half submerged in geometric ocean
+• Dissolving grid becoming water
+• Abstract flowing wave arcs
+Tone: fluid, slightly unbalanced, organic curves.
+
+2. Transition Motifs (Evaporation)
+• Horizontal horizon line
+• Rising vertical vapor lines
+• Circular mist ring
+• Fragmented geometry becoming structured lines
+Tone: upward movement, elegant linearity.
+
+3. Libra Motifs (Symmetry)
+• Art Deco scales
+• Mirrored hands facing each other
+• Two identical candles
+• Symmetrical arch frame
+• Balanced geometric circle divided in two
+Tone: exact, mirrored, structured.
+
+4. Micro Icons (Used Sparingly)
+• Small crescent
+• Minimal star
+• Breath line (three subtle parallel arcs)
+• Dot-grid texture circle
+Consistency is critical.
+Never introduce random new symbols mid-book.
+
+IV. REFINED BRAND VOICE (Tech-Infused Luxury Rewrite Tone)
+We remove soft mysticism language.
+We introduce precision.
+We speak like:
+Apple x Astrology
+Stockholm x Sacred Geometry
+
+Tone Shift Example
+Original:
+“The Full Moon in Pisces saturates awareness.”
+Refined:
+The Pisces Full Moon increases signal sensitivity.
+Emotional bandwidth expands.
+Data once suppressed becomes perceptible.
+
+Original:
+“Water becomes vapor; feeling becomes thought.”
+Refined:
+Emotion transitions from immersion to articulation.
+Raw sensation converts into relational language.
+
+Original:
+“Feel first. Define later.”
+Refined:
+Process before you interpret.
+
+We maintain poetry, but add clarity and structure.
+
+V. FINAL BRAND VOICE SAMPLE (Rewritten Opening)
+FROM SOUL TO BALANCE
+Pisces Full Moon → Libra New Moon
+This manual tracks a precise energetic transition.
+Pisces dissolves boundaries.
+Libra defines them.
+The movement is measurable:
+Sensation → Language
+Immersion → Structure
+Self → Self-in-Relation
+Your breath is the interface.
+
+VI. INTERACTIVE PDF CONSIDERATIONS
+For fillable version:
+• Under every journaling section create interactive text fields
+• Use faint dotted lines as design guides
+• Keep field borders invisible
+• Maintain margin integrity
+Export:
+Interactive PDF (Forms Enabled)
+High Quality Print PDF separately.
+
+VII. FINAL PRODUCTION CHECKLIST
+Before sending to print:
+☐ All typography aligned to baseline grid
+☐ Illustration stroke weights consistent
+☐ Margins identical across masters
+☐ No widows/orphans
+☐ Page count divisible by 4 (for print signatures)
+☐ Paper stock chosen
+☐ Test print done on uncoated paper
+
+VIII. WHAT WILL MAKE THIS TRULY LUXURY
+A blank page after every major section.
+No crowded spreads.
+No decorative clutter.
+Controlled pacing.
+Consistency of geometry language.
+Confident restraint.
+Luxury is what you remove.
+
+Now one final strategic question before you commission illustration:
+Are you planning this to become a series?
+(Pisces → Libra, Aries → Taurus, etc.)
+Because if yes — we design a repeatable system now, not just a single workbook.
+If this is the beginning of a lunar collection, we architect the whole ecosystem differently.
+Tell me your vision. 🌙
+

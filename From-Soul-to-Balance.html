@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Soul to Balance — Pisces → Libra | MOONtuner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #4a4e69;
+            --muted: #9a8c98;
+            --rose: #c9ada7;
+            --cream: #f2e9e4;
+            --gold: #c9a227;
+            --gold-light: #e8d5a3;
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--primary); color: var(--cream); line-height: 1.7; min-height: 100vh; }
+        .workbook { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        .cover { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 60px 40px; position: relative; overflow: hidden; }
+        .cover::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse at center, rgba(201, 162, 39, 0.08) 0%, transparent 70%); pointer-events: none; }
+        .cover-badge { display: inline-block; padding: 8px 24px; border: 1px solid var(--gold); color: var(--gold); font-size: 11px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 60px; }
+        .cover-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(48px, 8vw, 72px); font-weight: 400; letter-spacing: 2px; margin-bottom: 20px; line-height: 1.1; }
+        .cover-signs { font-family: 'Cormorant Garamond', serif; font-size: clamp(24px, 4vw, 32px); font-weight: 400; color: var(--muted); margin-bottom: 40px; }
+        .cover-divider { width: 120px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); margin: 40px 0; }
+        .cover-subtitle { font-size: 14px; color: var(--muted); letter-spacing: 1px; max-width: 400px; }
+        .section { padding: 80px 0; border-bottom: 1px solid rgba(154, 140, 152, 0.2); }
+        .section:last-child { border-bottom: none; }
+        .section-header { margin-bottom: 50px; }
+        .section-label { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
+        .section-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 5vw, 44px); font-weight: 400; margin-bottom: 16px; }
+        .section-intro { font-size: 16px; color: var(--muted); max-width: 560px; line-height: 1.8; }
+        .archetype-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin: 40px 0; }
+        .archetype-card { padding: 30px; background: rgba(242, 233, 228, 0.03); border: 1px solid rgba(201, 162, 39, 0.2); border-radius: 4px; }
+        .archetype-card h4 { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+        .archetype-card p { font-size: 15px; color: var(--cream); }
+        .prompt-block { margin: 40px 0; }
+        .prompt-label { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; color: var(--rose); margin-bottom: 16px; }
+        .prompt-field { width: 100%; min-height: 120px; padding: 20px; background: rgba(242, 233, 228, 0.02); border: 1px dashed rgba(201, 162, 39, 0.3); border-radius: 4px; font-family: 'Cormorant Garamond', serif; font-size: 16px; color: var(--cream); resize: vertical; transition: border-color 0.3s ease; }
+        .prompt-field:focus { outline: none; border-color: var(--gold); border-style: solid; }
+        .prompt-field::placeholder { color: var(--muted); opacity: 0.5; }
+        .ritual-box { background: linear-gradient(135deg, rgba(201, 162, 39, 0.08) 0%, rgba(201, 162, 39, 0.02) 100%); border: 1px solid rgba(201, 162, 39, 0.25); padding: 40px; margin: 40px 0; border-radius: 4px; }
+        .ritual-title { font-family: 'Cormorant Garamond', serif; font-size: 24px; margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
+        .weekly-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 40px 0; }
+        @media (max-width: 600px) { .weekly-grid { grid-template-columns: 1fr; } }
+        .week-card { padding: 30px; background: rgba(242, 233, 228, 0.03); border-left: 3px solid var(--gold); }
+        .week-number { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+        .week-theme { font-family: 'Cormorant Garamond', serif; font-size: 24px; margin-bottom: 12px; }
+        .week-description { font-size: 14px; color: var(--muted); }
+        .commitment-box { background: rgba(242, 233, 228, 0.02); padding: 40px; border: 1px solid rgba(154, 140, 152, 0.2); margin: 40px 0; }
+        .commitment-text { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; color: var(--cream); text-align: center; line-height: 1.8; }
+        .workbook-footer { text-align: center; padding: 60px 20px; color: var(--muted); font-size: 12px; letter-spacing: 1px; }
+        .nav-dots { position: fixed; right: 30px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 12px; z-index: 100; }
+        .nav-dot { width: 8px; height: 8px; border: 1px solid var(--gold); border-radius: 50%; cursor: pointer; transition: all 0.3s ease; background: transparent; }
+        .nav-dot.active, .nav-dot:hover { background: var(--gold); }
+        @media print { body { background: white; color: #1a1a2e; } .nav-dots { display: none; } .section { page-break-inside: avoid; } }
+    </style>
+</head>
+<body>
+    <nav class="nav-dots">
+        <div class="nav-dot active" onclick="scrollToSection(0)"></div>
+        <div class="nav-dot" onclick="scrollToSection(1)"></div>
+        <div class="nav-dot" onclick="scrollToSection(2)"></div>
+        <div class="nav-dot" onclick="scrollToSection(3)"></div>
+        <div class="nav-dot" onclick="scrollToSection(4)"></div>
+    </nav>
+
+    <div class="workbook">
+        <section class="cover" id="section-0">
+            <span class="cover-badge">MOONtuner — ARC I — Integration Cycle</span>
+            <h1 class="cover-title">From Soul to Balance</h1>
+            <p class="cover-signs">Pisces → Libra</p>
+            <div class="cover-divider"></div>
+            <p class="cover-subtitle">Mystical awareness forms relational harmony. The infinite becomes interpersonal.</p>
+        </section>
+
+        <section class="section" id="section-1">
+            <div class="section-header">
+                <p class="section-label">Archetypal Overview</p>
+                <h2 class="section-title">The Energetic Journey</h2>
+                <p class="section-intro">Mystical awareness forms relational harmony. The infinite becomes interpersonal.</p>
+            </div>
+
+            <div class="archetype-grid">
+                <div class="archetype-card">
+                    <h4>Body Axis</h4>
+                    <p>Feet → Low Back</p>
+                </div>
+                <div class="archetype-card">
+                    <h4>Energy Flow</h4>
+                    <p>Dissolution → Equilibrium</p>
+                </div>
+                <div class="archetype-card">
+                    <h4>Phase</h4>
+                    <p>Full Moon → New Moon</p>
+                </div>
+                <div class="archetype-card">
+                    <h4>Element</h4>
+                    <p>Water → Air</p>
+                </div>
+            </div>
+
+            <div class="ritual-box">
+                <h3 class="ritual-title">Metaphor</h3>
+                <p style="font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; color: var(--rose); line-height: 1.8;">Ocean mist crystallizes into dew on a spider's web. Unity becomes partnership.</p>
+            </div>
+
+            <div class="prompt-block">
+                <label class="prompt-label">Journey Notes</label>
+                <textarea class="prompt-field" placeholder="Begin documenting your transition here..."></textarea>
+            </div>
+        </section>
+
+        <section class="section" id="section-2">
+            <div class="section-header">
+                <p class="section-label">Weekly Integration</p>
+                <h2 class="section-title">Your Practice</h2>
+            </div>
+
+            <div class="weekly-grid">
+                <div class="week-card">
+                    <p class="week-number">Week 1 — Deconstruct</p>
+                    <h4 class="week-theme">Evaporation</h4>
+                    <p class="week-description">Release saturation; note what dries in air.</p>
+                </div>
+                <div class="week-card">
+                    <p class="week-number">Week 2 — Repattern</p>
+                    <h4 class="week-theme">Air Currents</h4>
+                    <p class="week-description">Speak one truth daily; practice reflective listening.</p>
+                </div>
+                <div class="week-card">
+                    <p class="week-number">Week 3 — Stabilize</p>
+                    <h4 class="week-theme">Weighing Scales</h4>
+                    <p class="week-description">Audit reciprocity; adjust one lever.</p>
+                </div>
+                <div class="week-card">
+                    <p class="week-number">Week 4 — Integrate</p>
+                    <h4 class="week-theme">Equilibrium</h4>
+                    <p class="week-description">Equal-breath daily; schedule beauty practice.</p>
+                </div>
+            </div>
+
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 22px; margin: 50px 0 20px;">Reflection Prompts</h3>
+
+            <div class="prompt-block">
+                <label class="prompt-label">What am I releasing in this transition?</label>
+                <textarea class="prompt-field" placeholder="..."></textarea>
+            </div>
+
+            <div class="prompt-block">
+                <label class="prompt-label">What am I calling in?</label>
+                <textarea class="prompt-field" placeholder="..."></textarea>
+            </div>
+        </section>
+
+        <section class="section" id="section-3">
+            <div class="section-header">
+                <p class="section-label">Daily Practice</p>
+                <h2 class="section-title">Morning & Evening Ritual</h2>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 30px 0;">
+                <div class="ritual-box" style="margin: 0;">
+                    <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 20px; margin-bottom: 16px; color: var(--gold);">Morning</h4>
+                    <p style="font-size: 14px; color: var(--muted); line-height: 2;">
+                        Center in breath<br>
+                        Set intention<br>
+                        One practice<br>
+                        Gratitude
+                    </p>
+                </div>
+                <div class="ritual-box" style="margin: 0;">
+                    <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 20px; margin-bottom: 16px; color: var(--gold);">Evening</h4>
+                    <p style="font-size: 14px; color: var(--muted); line-height: 2;">
+                        Review the day<br>
+                        Note insights<br>
+                        Release what remains<br>
+                        Rest
+                    </p>
+                </div>
+            </div>
+
+            <div class="prompt-block">
+                <label class="prompt-label">Today's Practice Notes</label>
+                <textarea class="prompt-field" placeholder="Document your daily practice experience..."></textarea>
+            </div>
+        </section>
+
+        <section class="section" id="section-4">
+            <div class="section-header">
+                <p class="section-label">Sacred Commitments</p>
+                <h2 class="section-title">Your Vow</h2>
+            </div>
+
+            <div class="commitment-box">
+                <p class="commitment-text">
+                    I honor this transition by practicing presence, patience, and compassion.<br><br>
+                    I commit to the work of transformation, knowing that each cycle builds upon the last.<br><br>
+                    My breath is the bridge between who I was and who I am becoming.
+                </p>
+            </div>
+
+            <div class="prompt-block">
+                <label class="prompt-label">Your Personal Commitment</label>
+                <textarea class="prompt-field" placeholder="Write your sacred commitment here..."></textarea>
+            </div>
+
+            <div style="display: flex; gap: 40px; margin-top: 40px;">
+                <div>
+                    <label style="font-size: 12px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase;">Signed</label>
+                    <input type="text" style="display: block; width: 200px; margin-top: 8px; padding: 12px; background: transparent; border: none; border-bottom: 1px solid var(--gold); font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--cream);" placeholder="Your name">
+                </div>
+                <div>
+                    <label style="font-size: 12px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase;">Date</label>
+                    <input type="text" style="display: block; width: 200px; margin-top: 8px; padding: 12px; background: transparent; border: none; border-bottom: 1px solid var(--gold); font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--cream);" placeholder="Date">
+                </div>
+            </div>
+        </section>
+
+        <footer class="workbook-footer">
+            <p>MOONtuner — Pisces → Libra</p>
+            <p style="margin-top: 8px;">© 2026 — A Lunar Phasecraft System</p>
+        </footer>
+    </div>
+
+    <script>
+        function scrollToSection(index) {
+            const sections = document.querySelectorAll('.section');
+            if (sections[index]) sections[index].scrollIntoView({ behavior: 'smooth' });
+        }
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const index = Array.from(document.querySelectorAll('.section')).indexOf(entry.target);
+                    document.querySelectorAll('.nav-dot').forEach((dot, i) => { dot.classList.toggle('active', i === index); });
+                }
+            });
+        }, { threshold: 0.3 });
+        document.querySelectorAll('.section').forEach(section => observer.observe(section));
+        document.querySelectorAll('.prompt-field').forEach(textarea => {
+            textarea.addEventListener('input', function() { this.style.height = 'auto'; this.style.height = this.scrollHeight + 'px'; });
+        });
+    </script>
+</body>
+</html>
