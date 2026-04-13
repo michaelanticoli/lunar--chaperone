@@ -1,0 +1,36 @@
+{
+  "name": "lunar--chaperone",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lunar Chaperone interactive workbook",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelanticoli/lunar--chaperone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/michaelanticoli/lunar--chaperone/issues"
+  },
+  "homepage": "https://github.com/michaelanticoli/lunar--chaperone#readme",
+  "dependencies": {
+    "framer-motion": "^12.38.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^3.4.19",
+    "vite": "^8.0.8"
+  }
+}

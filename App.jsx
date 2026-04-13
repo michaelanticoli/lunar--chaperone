@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import Workbook from './pages/Workbook';
+import Workbook from './Workbook.jsx';
 
 function App() {
   return (
